@@ -1,3 +1,6 @@
 [submodule "apex"]
 	path = apex
 	url = https://github.com/NVIDIA/apex
+[submodule "tacotron2"]
+	path = tacotron2
+	url = https://github.com/kurtb/tacotron2.git
