@@ -13,3 +13,6 @@ RUN pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="-
 
 WORKDIR /workspace/tacotron2/
 RUN pip install -r requirements.txt
+
+COPY tacotron2_statedict.pt tacotron2_statedict.pt
+COPY waveglow_256channels_universal_v5.pt waveglow_256channels.pt
